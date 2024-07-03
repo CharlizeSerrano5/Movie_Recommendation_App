@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 function Home(){
     return(
         <div className="Home">
-                <SmallTopBar></SmallTopBar>
+                <SmallTopBar Name="NOW SHOWING"></SmallTopBar>
                 <h3 className="Title">My Favorites</h3>
                 
                 <Stack spacing={2}>
