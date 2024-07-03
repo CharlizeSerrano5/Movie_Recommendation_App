@@ -1,9 +1,27 @@
-#html{
+body{
   width: 100%;
   background-color: #192027;
 }
 
 .App {
   text-align: center;
+  color: white;
   background-color: #192027;
+}
+
+h1{
+  color: #FFC319;
+}
+
+h3 {
+  color: #DBE3FF;
+}
+
+.StarIcon{
+  color:#FFC319;
+}
+
+
+title{
+  color: white;
 }
