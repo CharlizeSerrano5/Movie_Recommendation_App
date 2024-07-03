@@ -14,7 +14,7 @@ function Main(){
                     <Route path="/" element={<Home></Home>}></Route>
                     <Route path="/Home" element={<Home></Home>}></Route>
                     <Route path="/MovieDetails" element={<MovieDetails></MovieDetails>}></Route>
-                    <Route path="/Recommendation" element={<Recommendations></Recommendations>}></Route>
+                    <Route path="/Recommendations" element={<Recommendations></Recommendations>}></Route>
                 </Routes>
             </Container>
             </BrowserRouter>

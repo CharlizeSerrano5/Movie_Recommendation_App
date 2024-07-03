@@ -3,6 +3,8 @@ import FavoriteMovie from "../Components/FavoriteMovie";
 import SmallTopBar from "../Components/SmallTopBar";
 import GrayNavButton from "../Components/GrayNavButton";
 import { Grid, Container, Stack } from "@mui/material";
+import LoginButton from "../Components/LoginButton";
+import { Link } from "react-router-dom";
 function Home(){
     return(
         <div className="Home">
@@ -16,10 +18,9 @@ function Home(){
                     <FavoriteMovie className='Favorite'></FavoriteMovie>
                     <FavoriteMovie className='Favorite'></FavoriteMovie>
                 </Stack>
-                <GrayNavButton></GrayNavButton>
-            
-            
-
+                <Link to="/Recommendations"><GrayNavButton></GrayNavButton></Link>
+                <LoginButton>    
+                </LoginButton>
         </div>
     )
 }

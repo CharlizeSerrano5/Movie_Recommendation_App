@@ -1,9 +1,13 @@
 import { Button } from "@mui/material";
+import './GrayNavButton.css'
 function GrayNavButton(){
     return(
-        <Button variant='outlined' className="GrayNavButton">
+        <div>
+            <button className="Gray-Nav-Button">
             Get Recommendations
-        </Button>
+            </button>
+        </div>
+        
     )
 }
 
