@@ -18,7 +18,7 @@ function Home(){
                     <FavoriteMovie className='Favorite'></FavoriteMovie>
                     <FavoriteMovie className='Favorite'></FavoriteMovie>
                 </Stack>
-                <Link to="/Recommendations"><GrayNavButton></GrayNavButton></Link>
+                <Link to="/Recommendations"><GrayNavButton Label='Get Recommendations'></GrayNavButton></Link>
                 <LoginButton>    
                 </LoginButton>
         </div>

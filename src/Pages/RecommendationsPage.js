@@ -28,7 +28,7 @@ function Recommendations(){
                     </Grid>
 
                 </Grid>
-                <GrayNavButton></GrayNavButton>
+                <GrayNavButton Label="More Recommendations"></GrayNavButton>
             </Container>
         </div>
     )

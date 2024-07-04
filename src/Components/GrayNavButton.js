@@ -1,10 +1,10 @@
 import { Button } from "@mui/material";
 import './GrayNavButton.css'
-function GrayNavButton(){
+function GrayNavButton({Label}){
     return(
         <div>
             <button className="Gray-Nav-Button">
-            Get Recommendations
+                {Label}
             </button>
         </div>
         
