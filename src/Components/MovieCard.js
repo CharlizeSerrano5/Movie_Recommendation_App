@@ -26,7 +26,7 @@ function MovieCard(){
                             <Grid container spacing={1}>
                                 <Grid item xs={6}>
                                     <Stack direction='row'>
-                                        <span><p>1h 47m</p></span>
+                                        <span><p className='Description'>1h 47m</p></span>
                                     
                                         <span><StarIcon></StarIcon></span>                
 
@@ -35,7 +35,7 @@ function MovieCard(){
                                 </Grid>
                                 
                                 <Grid item xs={6}>
-                                    <p>6.4/10 IMDb</p>
+                                    <p className='Description'>6.4/10 IMDb</p>
                                 </Grid>
                             </Grid>
                             

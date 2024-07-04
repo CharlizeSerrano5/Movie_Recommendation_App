@@ -4,7 +4,7 @@ import StarIcon from '@mui/icons-material/Star';
 function StarSlider(){
     return(
         <span className='Star-Slider'>
-            <line></line>
+            {/* <line></line> */}
             <StarIcon></StarIcon>
 
         </span>

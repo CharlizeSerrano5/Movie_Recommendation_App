@@ -31,7 +31,7 @@ function MovieDetails(){
                     </Grid>
                 </Grid>
                 <h3>Description</h3>
-                <p className="TextContent">
+                <p className="TextContent Description">
                     With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, 
                     dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.
                 </p>
