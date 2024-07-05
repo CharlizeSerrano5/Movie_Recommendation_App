@@ -1,4 +1,4 @@
-import { Card, CardContent, CardMedia, Input, TextField, Grid } from '@mui/material';
+import { Card, CardContent, CardMedia, Input, TextField, Grid, Slider } from '@mui/material';
 import './AddMovie.css'
 import StarSlider from './StarSlider';
 import StarIcon from '@mui/icons-material/Star';
@@ -11,11 +11,10 @@ function FavoriteMovie(){
                 {/* <TextField variant='standard' label='text'> </TextField> */}
                 <Grid container spacing={1} alignItems={'center'}>
                     <Grid item xs={10}>
-                        <input className='Input' placeholder='Add Movie Title'></input>
-
+                        <input className='Input' placeholder='Add Movie Title' style={{minHeight: '20px', width: '400px'}}></input>
                     </Grid>
                     <Grid item xs={1}>
-                        <StarSlider className='StarIcon'></StarSlider>
+                        <StarSlider></StarSlider>
                     </Grid>
                     <Grid item xs={1}>
                         <MoreVertIcon></MoreVertIcon>

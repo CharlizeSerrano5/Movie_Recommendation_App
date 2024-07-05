@@ -1,3 +1,4 @@
+import './SmallTopBar.css'
 import { Avatar } from "@mui/material";
 function SmallTopBar({Name}){
     return(

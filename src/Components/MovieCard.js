@@ -4,6 +4,8 @@ import StarIcon from '@mui/icons-material/Star';
 import CenterImage from '../Assets/SpidermanPoster.png'
 import { Link } from 'react-router-dom';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
+import StarSlider from "../Components/StarSlider";
+
 
 function MovieCard(){
     return(
@@ -11,16 +13,25 @@ function MovieCard(){
             <Link to='/MovieDetails'>
                 <Card variant='outlined' 
                 style={{backgroundColor: 'rgba(105, 147, 188, 0.05)', color: 'white', padding: '10px'}} >
-                    <Grid container spacing={1}>
+                    <Grid container spacing={1} justifyContent={'center'}>
                         <Grid item xs= {12}>
-                            Already watched
-                            <MoreHorizIcon></MoreHorizIcon>
+                            <Grid container spacing={1}>
+                                <Grid item xs={10} textAlign={'left'} style={{color: 'rgba(255, 255, 255, .47)'}}>
+                                    <div className='Description'>Already watched</div>
+                                </Grid>
+                                <Grid item xs={2}>
+                                    <MoreHorizIcon fontSize='12px'></MoreHorizIcon>
+                                </Grid>
+                            </Grid>
+                        </Grid>
+                        <Grid item xs= {4}>
+                            <StarSlider></StarSlider>
                         </Grid>
                         <Grid item xs= {12}>
                             <img src={CenterImage}></img>
                         </Grid>
                         <Grid item xs={12}>
-                            <p>Spiderman: No Way Home</p>
+                            <p className='Description' style={{color: 'white'}}>Spiderman: No Way Home</p>
                         </Grid>
                         <Grid item xs={12}>
                             <Grid container spacing={1}>
