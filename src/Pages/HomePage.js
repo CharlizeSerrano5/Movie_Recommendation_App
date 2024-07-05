@@ -1,5 +1,5 @@
 import React from "react";
-import FavoriteMovie from "../Components/FavoriteMovie";
+import AddMovie from "../Components/AddMovie";
 import SmallTopBar from "../Components/SmallTopBar";
 import GrayNavButton from "../Components/GrayNavButton";
 import { Grid, Container, Stack } from "@mui/material";
@@ -12,11 +12,11 @@ function Home(){
                 <h3 className="Title">My Favorites</h3>
                 
                 <Stack spacing={2}>
-                    <FavoriteMovie className='Favorite'></FavoriteMovie>
-                    <FavoriteMovie className='Favorite'></FavoriteMovie>
-                    <FavoriteMovie className='Favorite'></FavoriteMovie>
-                    <FavoriteMovie className='Favorite'></FavoriteMovie>
-                    <FavoriteMovie className='Favorite'></FavoriteMovie>
+                    <AddMovie className='Favorite'></AddMovie>
+                    <AddMovie className='Favorite'></AddMovie>
+                    <AddMovie className='Favorite'></AddMovie>
+                    <AddMovie className='Favorite'></AddMovie>
+                    <AddMovie className='Favorite'></AddMovie>
                 </Stack>
                 <Link to="/Recommendations"><GrayNavButton Label='Get Recommendations'></GrayNavButton></Link>
                 <LoginButton>    

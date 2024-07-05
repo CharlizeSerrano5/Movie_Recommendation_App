@@ -2,7 +2,7 @@ import './LoginButton.css'
 function LoginButton(){
     return(
         <div >
-            <button className="Login-Button">
+            <button className="LoginButton">
                 Login
             </button>
         </div>
